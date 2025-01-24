@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a:link,a:visited{
+            color: black;
+            text-decoration: none;
+        }
+        
+        .link{
+            display: block;
+            /* 링크에 w, h를 입력해도 먹히지 않지만 display block을 추가해주면 wh가 적용된 블럭모양으로 링크가 적용됨 */
+            width: 100px;
+            height: 100px;
+            background-color: #ffa5a5;
+        }
+
+        .box{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            background-color: #ffb7b7;
+        }
+
+        .span{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            background-color: #ff5a5a;
+        }
+
+        .textcenter{
+            width: 100px;
+            height: 100px;
+            background-color: #ff7f94;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .textcenter1{
+            width: 100px;
+            height: 100px;
+            background-color: #ff4f84;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .title{
+            background-color: #6effb7;
+            width: 100px;
+            height: 50px;
+            margin: 0 auto;
+            text-align: center;
+        
+        }
+
+    </style>
+
+</head>
+<body>
+    <a href="#" class="link">link</a>
+    <span class="span">span html</span>
+    <div class="box">box</div>
+    <div class="textcenter">center</div>
+    <div class="textcenter1">center1</div>
+    <div class="title">title</div>
+
+</body>
+</html>

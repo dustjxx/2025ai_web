@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .boxWrap{background-color: purple;display: flex;width: 1200px;padding: 10px;
+            justify-content: space-between; align-items: center;
+            /* gap: 10px; */
+        }
+
+        .boxList{
+            display: flex; gap: 20px;
+            background-color: orange;
+        }
+
+        .logo,.login{background-color: white;}
+
+        
+    </style>
+</head>
+<body>
+    <div class="boxWrap">
+        <div class="logo">logo
+            <img src="logo_01.png" alt="">
+        </div>
+        
+        <div class="boxList">
+            <div class="box1">카카오 생활</div>
+            <div class="box2">크루 이야기</div>
+            <div class="box3">진행 중 공고</div>
+            <div class="box4">지원안내</div>
+            <div class="box5">FAQ</div>
+        </div>
+
+        <div class="login">로그인</div>
+    </div>
+</body>
+</html>

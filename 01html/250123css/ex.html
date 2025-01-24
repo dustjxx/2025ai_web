@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>복습</title>
+    <style>
+        /* reset */
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        a:link,a:visited{
+            text-decoration: none;
+            color: rgb(59, 59, 59);
+        }
+
+        li{list-style: none;}
+
+        .hd{
+            width: 100%;
+            min-width: 1200px;
+            background: #000;
+            
+        }
+
+        .wrapper{
+            width: 1200px;
+            display: flex;
+            background-color: skyblue;
+            justify-content: space-between;
+            margin: 0 auto;
+        }
+
+        .wrapper>h1>a>img{height: 30;}
+
+        .menu{
+            display: flex;
+            justify-content: center;
+        }
+
+        .menu>li{
+            /* height: 20px; */
+            /* margin: 0 auto; */
+            padding: 10px;
+        }
+
+        .menu li:hover{
+            background-color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="hd">
+        <nav class="wrapper">
+            <!-- nav를 쓰나 div를 쓰나 라이브서버에서 보여지는 건 똑같은데
+            nav를 쓰면 개발자끼리 코드 뜯어볼 때 메뉴 부분의 코드라는 걸 구분하기 쉬움 -->
+         <a href="https://www.youtube.com/@%EB%8B%A4%EC%AF%94c3" target="_blank">
+            <h3>다쯔 유튜브</h3>
+            <img src="icon01.jpg" alt="">
+         </a>
+            <ul class="menu">
+            <li><a href="https://www.youtube.com/@%EB%8B%A4%EC%AF%94c3">유튜브</a></li>
+            <li><a href="#">채널소개</a></li>
+            <li><a href="#">질문해요</a></li>
+            <li><a href="#">컨택</a></li>
+            </ul>
+            <div style="width: 200px;">       </div>
+        </nav>
+    </div>
+</body>
+</html>
